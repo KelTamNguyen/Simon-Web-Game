@@ -68,7 +68,7 @@ function nextSequence() {
     var randomNumber = Math.floor(Math.random()*4);
     gamePattern.push(buttonColors[randomNumber])
     level++;
-    $("h1").text("Level " + level)
+    $("#level-title").text("Level " + level)
     return gamePattern;
 }
 
